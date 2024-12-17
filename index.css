@@ -1,0 +1,100 @@
+body {
+  background-color: #ECE7E2;
+}
+
+.to-do-list {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+h1{
+  font-size: 4rem ;
+  font-style: italic;
+  color: hsl(157, 23%, 38%);
+}
+
+button {
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+
+}
+
+.add-button {
+  background-color: hsl(157, 23%, 38%);
+  font-size: 1.6rem;
+
+}
+
+.add-button:hover {
+  background-color: hsl(157, 23%, 48%) ;
+}
+
+/*.delete-button {
+  background-color: hsl(157, 23%, 38%);
+
+}*/
+
+.delete-button:hover {
+  background-color: rgba(164, 74, 74, 0.7);
+}
+
+/*.update-button {
+  background-color: hsl(157, 23%, 38%);
+
+}*/
+
+.update-button:hover {
+  background-color: hsl(157, 23%, 48%);
+}
+
+ input[type="text"] {
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid;
+  border-color: #ECE7E2;
+  border-radius: 5px;
+  color:rgba(51, 49, 50, 0.87);
+  outline-color: hsl(157, 23%, 38%);
+  caret-color: hsl(157, 23%, 38%);
+  background-color:rgb(191, 198, 193) ;
+  
+}
+
+ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  font-size: 1.6rem;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid;
+  border-color: hsl(157, 23%, 38%);
+  border-radius: 5px;
+  background-color:#ECE7E2;
+  color: hsl(157, 23%, 38%);
+  display: flex;
+  align-items: center;
+
+}
+
+.text {
+  flex: 1;
+  
+}
+
+.delete-button, .update-button {
+  font-size: 1.4rem;
+  padding: 8px 12px;
+  margin-left: 5px;
+  border: none;
+  cursor: pointer;
+  
+}
